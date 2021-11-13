@@ -1,0 +1,1 @@
+[{"id":"bef9ff4d.4e6bc","type":"function","z":"998d18d0.5d2d78","name":"","func":"let pay = msg.payload.data.daily_pcr_testing_data[0];\nmsg.payload = pay;\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":600,"y":800,"wires":[["6be6728f.a5494c","64a002b8.592bac","9d036c2a.62a7b"]]}]
